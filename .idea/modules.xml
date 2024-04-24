@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-first/spring-first.iml" filepath="$PROJECT_DIR$/spring/spring-first/spring-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-ioc-man/spring-ioc-man.iml" filepath="$PROJECT_DIR$/spring/spring-ioc-man/spring-ioc-man.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring6.iml" filepath="$PROJECT_DIR$/.idea/spring6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring6-ioc-xml/spring6-ioc-xml.iml" filepath="$PROJECT_DIR$/spring/spring6-ioc-xml/spring6-ioc-xml.iml" />
+    </modules>
+  </component>
+</project>

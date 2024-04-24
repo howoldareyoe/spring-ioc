@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dept" class="com.yu.spring6.iocxml.ditest.Dept">
+        <property name="dname" value="技术部"></property>
+    </bean>
+    <!-- 注入数组类型 -->
+    <bean id="emp" class="com.yu.spring6.iocxml.ditest.Emp">
+        <property name="ename" value="www"></property>
+        <property name="age" value="12"></property>
+        <property name="dept" ref="dept"></property>
+        <property name="loves">
+            <array>
+                <value>唱</value>
+                <value>跳</value>
+                <value>rap</value>
+            </array>
+        </property>
+    </bean>
+</beans>
